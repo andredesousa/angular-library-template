@@ -53,7 +53,7 @@ It's recommended to use them in your projects because:
 
 - They keep everybody on the same page, following the same rules.
 - They save time in code reviews, because you can safely ignore all style issues, and focus on things that matter, like the structure and semantics of your code.
-- They catch errors. Prettier, not so much, but TSLint catches a lot of syntax errors and simple forms of type errors, such as undefined variables.
+- They catch errors. Prettier, not so much, but ESLint catches a lot of syntax errors and simple forms of type errors, such as undefined variables.
 - Setting these things up is a one-time cost, but the time-saving benefits compound over time.
 
 Run `npm run lint` to analyze your code. Many problems can be automatically fixed with `npm run lint:fix`.
@@ -133,5 +133,5 @@ For further reference, please consider the following articles:
 - [npm scripts](https://docs.npmjs.com/cli/v8/using-npm/scripts)
 - [Angular - Creating libraries](https://angular.io/guide/creating-libraries)
 - [Introduction to Storybook for Angular](https://storybook.js.org/docs/angular/get-started/introduction)
-- [Getting Started - Jest](https://jestjs.io/docs/getting-started)
+- [Jest - Getting Started](https://jestjs.io/docs/getting-started)
 - [Semantic Versioning](https://semver.org/)
